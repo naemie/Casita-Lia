@@ -328,7 +328,7 @@
         if (!container || container.querySelector('iframe')) return;
         const frame = document.createElement('iframe');
         frame.title = 'Map of Casita Lia — The Rochester Condominium, Parklane Tower, San Joaquin, Pasig, Metro Manila';
-        frame.src = 'https://maps.google.com/maps?q=' + encodeURIComponent('Casita Lia, The Rochester Condominium, Parklane Tower, San Joaquin, Pasig, Metro Manila') + '&output=embed';
+        frame.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.4850947439945!2d121.07734149999999!3d14.551638300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9004d2efd13%3A0x56808e6465ede42e!2sCasita%20Lia!5e1!3m2!1sen!2sph!4v1788961697283!5m2!1sen!2sph' + encodeURIComponent('Casita Lia, The Rochester Condominium, Parklane Tower, San Joaquin, Pasig, Metro Manila') + '&output=embed';
         frame.loading = 'lazy';
         frame.referrerPolicy = 'no-referrer-when-downgrade';
         frame.allowFullscreen = true;
